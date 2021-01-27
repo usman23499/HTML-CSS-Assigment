@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        .main {
+            margin: 0 auto;
+            width: 90%;
+        }
+
+        .head {
+
+            background-color: #5b9bd5;
+            border: 2px solid #93b6d4;
+            border-radius: 20px;
+            padding: 2px 20px;
+            display: flex;
+
+        }
+
+        .headpage {
+            margin-top: 20px !important;
+            margin-left: 10%;
+
+        }
+
+        a {
+            color: black;
+            padding: 30px;
+            text-decoration: none;
+
+
+        }
+
+        a:focus {
+            color: black;
+        }
+
+        .footer {
+
+            background-color: #5b9bd5;
+            border: 2px solid #93b6d4;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-height: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="head">
+
+            <span>
+                <img src="./images/logo.png" width="80" height="50" alt="logo">
+            </span>
+
+            <span class="headpage">
+                <a href="./home.html">HOME</a>
+                <a href="./about.html"> ABOUT</a>
+                <a href="./profile.html">PORTFOLIO</a>
+                <a href="./contact.html">CONTACT</a>
+            </span>
+
+        </div>
+
+        <br/>
+        <div>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Your Detail</legend>
+                    <p>
+                        Name: <input type="text" name="name" id="" maxlength="30" size="20" required> 
+                        Email: <input type="email" name="email" id="" size="30" required>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Review:</legend>
+                    <p>
+                        How did you hear about us ? <select name="review" id="">
+                            <option value="google">Goole</option>
+                            <option value="ads">Ads</option>
+                            <option value="Friend">Friend</option>
+                        </select>
+                    </p>
+                    <p>
+                        Would you visit again?
+                        <br/>
+                        
+                        <label >
+                            <input type="radio" name="visits"> Yes
+                        </label>
+                        <label >
+                            <input type="radio" name="visits"> No
+                        </label>
+                        <label >
+                            <input type="radio" name="visits"> Maybe
+                        </label>
+                        
+                    </p>
+                    <p>
+                        Comments:
+                        
+                    </p>
+                    <textarea name="comments"  cols="40" rows="5"></textarea>
+                    <p>
+                        <label >
+                        <input type="checkbox" required> Sign me up for email updates
+                        </label>
+        
+                    </p>    
+                    <input type="submit" name="Submit review" value="Submit review">
+                    
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/d/u/0/viewer?mid=1yNkuiTNDXgwrBmoQIdpifBRd5pk&ll=29.64767294981418%2C70.684372&z=6" height="300" width="100%" frameborder="2" ></iframe>
+        </div>
+
+        <br />
+        <div class="footer">
+            <h5>
+                Copyrights &copy; 2019.All right reserver.
+            </h5>
+        </div>
+    </div>
+</body>
+
+</html>
